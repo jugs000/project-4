@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(29deg,#11c076,#c3b310,#f3da87,#ad62aa);
+    background-size: 240% 240%;
+    animation: gradient-animation 9s ease infinite;
+  }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav div img {
+    padding-left: 180px;
+    margin-top: 50px;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    padding-top:70px;
+    margin-right: 600px;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.list ul li a{
+    text-decoration: none;
+}
+button{
+    margin-top: 70px;
+    margin-right: 40px;
+    background-color: rgb(22, 9, 9);
+    border-radius: 12px;
+    padding: 8px;
+    font-size: larger;
+    color: rgb(252, 252, 252);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+button:hover{
+  font-size: 30px;
+}
+section {
+    display: flex;
+}
+.left{ 
+    margin-left: 11%;
+    margin-top: 150px;
+    font-size: 25px;
+  }
+  .left p{
+    margin-top: 30px;
+    color: grey;
+    font-size: 20px;
+  }
+  .left h1 {
+    color: rgb(3, 3, 65, 0.808);
+  }
+  .left h1 span {
+    color: rgba(20, 20, 17, 0.445);
+  }
+  div img{
+    margin-left: 40px;
+    margin-top: 25px;
+  }
+  
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
